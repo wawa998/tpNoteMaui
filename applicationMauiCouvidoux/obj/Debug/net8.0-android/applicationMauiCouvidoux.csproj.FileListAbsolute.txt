@@ -107,6 +107,7 @@ E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-and
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\lp\155\jl\files.cache
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\lp\156\jl\files.cache
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\lp\157\jl\files.cache
+E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\R.txt
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\_Microsoft.Android.Resource.Designer.dll
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\R.cs.flag
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\applicationMauiCouvidoux.GeneratedMSBuildEditorConfig.editorconfig
@@ -124,7 +125,6 @@ E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-and
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\bin\com.companyname.applicationmauicouvidoux.aab
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\bin\com.companyname.applicationmauicouvidoux.apks
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\res\values\colors.xml
-E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\R.txt
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\uploadflags.txt
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\resolvedassemblies.hash
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\assets\applicationMauiCouvidoux.dll
@@ -150,7 +150,6 @@ E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-and
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\assets\ja\Microsoft.Maui.Controls.resources.dll
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\assets\Jsr305Binding.dll
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\assets\ko\Microsoft.Maui.Controls.resources.dll
-E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\assets\machine.config
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\assets\Microsoft.CSharp.dll
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Configuration.Abstractions.dll
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Configuration.dll
@@ -517,6 +516,7 @@ E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-and
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\AndroidManifest.xml
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\src\mono\MonoRuntimeProvider.java
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\src\mono\JavaInteropTypeManager.java
+E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\assets\machine.config
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\bin\mono.android.jar
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\static.flag
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\__environment__.txt
@@ -587,7 +587,6 @@ E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-and
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\src\androidx\window\R.java
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\src\com\bumptech\glide\gifdecoder\R.java
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\src\com\bumptech\glide\R.java
-E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\src\com\companyname\applicationmauicouvidoux\R.java
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\src\com\google\android\material\R.java
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\src\com\google\android\material\snackbar\Snackbar_SnackbarActionClickImplementor.java
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\src\com\microsoft\maui\R.java
@@ -1020,6 +1019,7 @@ E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-and
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\textfield\TextInputLayout_OnEndIconChangedListenerImplementor.java
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\src\mono\MonoPackageManager_Resources.java
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\bin\packaged_resources
+E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\src\com\companyname\applicationmauicouvidoux\R.java
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.ll
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\typemaps.x86_64.o
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\environment.x86_64.o

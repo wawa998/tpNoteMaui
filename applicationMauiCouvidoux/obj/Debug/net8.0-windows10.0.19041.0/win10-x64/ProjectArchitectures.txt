@@ -1,1 +1,0 @@
-E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\applicationMauiCouvidoux.csproj;x64
