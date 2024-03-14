@@ -5,26 +5,34 @@
     <ScrollView BackgroundColor="DimGray">
         <StackLayout Margin="0,20,0,0">
             
-            
             <Frame HasShadow="True"
                 BorderColor="Black"
                 CornerRadius="5"
-                HeightRequest="100"
-                WidthRequest="250"
+                HeightRequest="120"
+                WidthRequest="260"
                 HorizontalOptions="Center"
                 VerticalOptions="CenterAndExpand"
                 BackgroundColor="DarkGrey">
                 <StackLayout>
-                    <Label Text="S.T.A.L.K.E.R" FontSize="25" FontFamily="bold" HorizontalOptions="Center"/>
-                    <Label Text="My favorite FPS game" FontSize="20" HorizontalOptions="Center"/>
+                    <Label Text="S.T.A.L.K.E.R" FontSize="30" FontFamily="bold" HorizontalOptions="Center"/>
+                    <Label Text="My favorite FPS game" FontSize="28" HorizontalOptions="Center"/>
                 </StackLayout>
             </Frame>
             
-            <HorizontalStackLayout  Margin="20" Spacing="10">
+            <Frame HasShadow="True"
+                   Margin="20" 
+                BorderColor="Black"
+                CornerRadius="5"
+                HeightRequest="330"
+                WidthRequest="390"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                BackgroundColor="DarkGrey">
+            <HorizontalStackLayout Spacing="10">
                 <Image Source="../resources/images/imagestalkergauche.jpg"  WidthRequest="180" ></Image>
                 <Image Source="../resources/images/imagestalkerdroite.jpg"  WidthRequest="180" ></Image>
             </HorizontalStackLayout>
-            
+            </Frame>
             
             <VerticalStackLayout >
                 
@@ -61,8 +69,23 @@
                 <IndicatorView x:Name="IndicatorView" Margin="5" HorizontalOptions="Center"/>
                 
             </VerticalStackLayout>
-            
+            <Frame HasShadow="True"
+                BorderColor="Black"
+                CornerRadius="5"
+                HeightRequest="70"
+                WidthRequest="150"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                BackgroundColor="DarkGrey"
+                Margin="20">
+                <Button Text="to the gif!" TextColor="Black" BackgroundColor="White" 
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        FontSize="20"
+                        HeightRequest="50"
+                        WidthRequest="120"/>
+            </Frame>
         </StackLayout>
-        
     </ScrollView>
+    
 </ContentPage>
