@@ -1,4 +1,6 @@
-﻿using applicationMauiCouvidoux.Model;
+﻿using System.Diagnostics;
+using applicationMauiCouvidoux.Model;
+using applicationMauiCouvidoux.View;
 
 namespace applicationMauiCouvidoux
 {
@@ -8,7 +10,7 @@ namespace applicationMauiCouvidoux
         public MainPage()
         {
             InitializeComponent();
-
+            
             var items = new List<CollectionItem>
             {
                 new CollectionItem{Title = "Shadow of chernobyl" , Src = "../resources/images/stalkers.jpg"},
@@ -18,9 +20,14 @@ namespace applicationMauiCouvidoux
             };
 
             CarouselView.ItemsSource = items;
+            
+            
         }
 
-
+        private void Button_OnClicked(object? sender, EventArgs e)
+        {
+            Navigation.PushAsync(new GifPage());
+        }
     }
 
 }

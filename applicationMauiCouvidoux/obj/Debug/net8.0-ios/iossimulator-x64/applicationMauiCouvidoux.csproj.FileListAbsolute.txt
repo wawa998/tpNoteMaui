@@ -317,3 +317,5 @@ E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-ios
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\stalkerc.jpg
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\stalkercs.jpg
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\stalkerd.jpg
+E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\firstelement.png
+E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\stalker.gif

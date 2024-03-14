@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="applicationMauiCouvidoux.View.GifPage"
+             BackgroundColor="DimGray">
+    <ContentPage.Content >
+        <StackLayout Margin="0,20,0,0">
+            <Frame HasShadow="True"
+                   BorderColor="Black"
+                   CornerRadius="5"
+                   HeightRequest="360"
+                   WidthRequest="360"
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand"
+                   BackgroundColor="DarkGrey">
+                <Image Source="./Ressources/images/stalker.gif" IsAnimationPlaying="True"
+                       WidthRequest="300"
+                       HorizontalOptions="Center"
+                       x:Name="imgLoader"/>
+            </Frame>
+            
+            <Frame HasShadow="True"
+                   BorderColor="Black"
+                   CornerRadius="5"
+                   HeightRequest="70"
+                   WidthRequest="130"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   BackgroundColor="DarkGrey"
+                   Margin="20">
+                <Button Text="go back !" TextColor="Black" BackgroundColor="White" 
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        FontSize="20"
+                        HeightRequest="50"
+                        WidthRequest="110"
+                        Clicked="Button_OnClicked"/>
+            </Frame>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -40,6 +40,9 @@
     <AppxPackagedFile Include="E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\Resources\Images\stalker.gif">
+      <PackagePath>Resources\Images\stalker.gif</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -214,11 +217,17 @@
     <AppxPackagedFile Include="E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\firstelement.scale-100.png">
+      <PackagePath>firstelement.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\imagestalkerdroite.scale-100.jpg">
       <PackagePath>imagestalkerdroite.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\imagestalkergauche.scale-100.jpg">
       <PackagePath>imagestalkergauche.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stalker.scale-100.gif">
+      <PackagePath>stalker.scale-100.gif</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stalkerc.scale-100.jpg">
       <PackagePath>stalkerc.scale-100.jpg</PackagePath>

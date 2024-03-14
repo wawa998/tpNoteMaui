@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="applicationMauiCouvidoux.MainPage">
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 x:Class="applicationMauiCouvidoux.MainPage">
     <ScrollView BackgroundColor="DimGray">
         <StackLayout Margin="0,20,0,0">
             
@@ -66,7 +67,7 @@
                     </CarouselView.ItemTemplate>
                 </CarouselView>
                 
-                <IndicatorView x:Name="IndicatorView" Margin="5" HorizontalOptions="Center"/>
+                <IndicatorView x:Name="IndicatorView" Margin="5" HorizontalOptions="Center" />
                 
             </VerticalStackLayout>
             <Frame HasShadow="True"
@@ -83,9 +84,9 @@
                         BorderWidth="1"
                         FontSize="20"
                         HeightRequest="50"
-                        WidthRequest="120"/>
+                        WidthRequest="120"
+                        Clicked="Button_OnClicked"/>
             </Frame>
         </StackLayout>
     </ScrollView>
-    
 </ContentPage>

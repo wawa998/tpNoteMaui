@@ -305,3 +305,5 @@ E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-mac
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\stalkercs.jpg
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\stalkers.jpg
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\stalkerd.jpg
+E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\firstelement.png
+E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\stalker.gif

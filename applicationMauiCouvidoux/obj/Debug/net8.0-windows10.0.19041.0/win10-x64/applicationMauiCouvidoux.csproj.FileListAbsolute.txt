@@ -182,3 +182,5 @@ E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-win
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stalkercs.scale-100.jpg
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stalkerd.scale-100.jpg
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stalkers.scale-100.jpg
+E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\firstelement.scale-100.png
+E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stalker.scale-100.gif

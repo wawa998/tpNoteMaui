@@ -51,6 +51,7 @@
 
 		<!-- Custom Fonts -->
 		<MauiFont Include="Resources\Fonts\*" />
+		<MauiAsset Include="Resources\Images\stalker.gif" />
 
 		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
@@ -85,6 +86,10 @@
 	  </Compile>
 	  <Compile Update="ViewModel\MainPage.xaml.cs">
 	    <DependentUpon>MainPage.xaml</DependentUpon>
+	    <SubType>Code</SubType>
+	  </Compile>
+	  <Compile Update="ViewModel\GifPage.xaml.cs">
+	    <DependentUpon>GifPage.xaml</DependentUpon>
 	    <SubType>Code</SubType>
 	  </Compile>
 	</ItemGroup>
