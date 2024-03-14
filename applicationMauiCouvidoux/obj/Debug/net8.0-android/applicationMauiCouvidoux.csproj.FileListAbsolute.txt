@@ -1039,3 +1039,7 @@ E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-and
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\resizetizer\r\drawable\imagestalkerdroite.jpg
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\resizetizer\r\drawable\imagestalkergauche.jpg
+E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\resizetizer\r\drawable\stalkerc.jpg
+E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\resizetizer\r\drawable\stalkercs.jpg
+E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\resizetizer\r\drawable\stalkerd.jpg
+E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\resizetizer\r\drawable\stalkers.jpg
