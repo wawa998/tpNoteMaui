@@ -1,0 +1,43 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = applicationMauiCouvidoux
+build_property.ProjectDir = E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[E:/code/mobile/noteMAUI/tpNoteMaui/applicationMauiCouvidoux/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = applicationMauiCouvidoux.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[E:/code/mobile/noteMAUI/tpNoteMaui/applicationMauiCouvidoux/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = applicationMauiCouvidoux.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[E:/code/mobile/noteMAUI/tpNoteMaui/applicationMauiCouvidoux/View/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = applicationMauiCouvidoux.View.App.xaml
+build_metadata.AdditionalFiles.TargetPath = View\App.xaml
+build_metadata.AdditionalFiles.RelativePath = View\App.xaml
+
+[E:/code/mobile/noteMAUI/tpNoteMaui/applicationMauiCouvidoux/View/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = applicationMauiCouvidoux.View.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = View\AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = View\AppShell.xaml
+
+[E:/code/mobile/noteMAUI/tpNoteMaui/applicationMauiCouvidoux/View/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = applicationMauiCouvidoux.View.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\MainPage.xaml

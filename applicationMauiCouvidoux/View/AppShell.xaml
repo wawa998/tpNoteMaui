@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="applicationMauiCouvidoux.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:applicationMauiCouvidoux"
+    Shell.FlyoutBehavior="Disabled"
+    Shell.NavBarIsVisible="False"
+    Title="applicationMauiCouvidoux">
+    
+    <FlyoutItem Title="App Title">
+        <ShellContent Title="page principal"
+                      ContentTemplate="{DataTemplate local:MainPage}">
+            <ShellContent.Icon>
+                <FontImageSource FontFamily="FAS"
+                                 Glyph="&#xf015;"/>
+            </ShellContent.Icon>
+        </ShellContent>
+
+        <ShellContent Title="page secondaire"
+                      ContentTemplate="{DataTemplate local:MainPage}">
+            <ShellContent.Icon>
+                <FontImageSource FontFamily="FAS"
+                                 Glyph="&#xe53d;"/>
+            </ShellContent.Icon>
+        </ShellContent>
+        <ShellContent Title="api"
+                      ContentTemplate="{DataTemplate local:MainPage}">
+            <ShellContent.Icon>
+                <FontImageSource FontFamily="FAS"
+                                 Glyph="&#xe53d;"/>
+            </ShellContent.Icon>
+        </ShellContent>
+        <ShellContent Title="supplément ketchup"
+                      ContentTemplate="{DataTemplate local:MainPage}">
+            <ShellContent.Icon>
+                <FontImageSource FontFamily="FAS"
+                                 Glyph="&#xe53d;"/>
+            </ShellContent.Icon>
+        </ShellContent>
+    </FlyoutItem>
+
+</Shell>
