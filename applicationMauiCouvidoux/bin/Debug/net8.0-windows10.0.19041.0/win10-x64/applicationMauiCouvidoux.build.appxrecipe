@@ -37,6 +37,9 @@
     <AppxPackagedFile Include="E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>applicationMauiCouvidoux.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\Resources\AppIcon\appicon.svg">
+      <PackagePath>appicon.svg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>

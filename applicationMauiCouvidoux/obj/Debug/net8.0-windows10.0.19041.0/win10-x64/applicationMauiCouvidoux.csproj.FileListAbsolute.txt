@@ -148,6 +148,14 @@ E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-win
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png
+E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\firstelement.scale-100.png
+E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\imagestalkerdroite.scale-100.jpg
+E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\imagestalkergauche.scale-100.jpg
+E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stalker.scale-100.gif
+E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stalkerc.scale-100.jpg
+E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stalkercs.scale-100.jpg
+E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stalkerd.scale-100.jpg
+E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stalkers.scale-100.jpg
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.stamp
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\applicationMauiCouvidoux.AssemblyInfoInputs.cache
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\applicationMauiCouvidoux.AssemblyInfo.cs
@@ -176,11 +184,3 @@ E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-win
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
-E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\imagestalkerdroite.scale-100.jpg
-E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\imagestalkergauche.scale-100.jpg
-E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stalkerc.scale-100.jpg
-E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stalkercs.scale-100.jpg
-E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stalkerd.scale-100.jpg
-E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stalkers.scale-100.jpg
-E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\firstelement.scale-100.png
-E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stalker.scale-100.gif

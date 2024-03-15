@@ -9,9 +9,9 @@
     Shell.NavBarIsVisible="False"
     Title="applicationMauiCouvidoux">
     
-    <FlyoutItem Title="bottomBar" FlyoutDisplayOptions="AsMultipleItems">
+    <FlyoutItem Title="bottomBar">
         <ShellContent Title="S.T.A.L.K.E.R" ContentTemplate="{DataTemplate local:MainPage}"
-                      Icon="../resources/images/firstelement.png">
+                      Icon="../resources/images/firstelement.png" >
         </ShellContent>
         
         <ShellContent Title="page secondaire" ContentTemplate="{DataTemplate local:MainPage}"
