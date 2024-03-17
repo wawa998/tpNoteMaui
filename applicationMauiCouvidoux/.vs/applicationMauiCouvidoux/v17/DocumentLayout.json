@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\code\\mobile\\noteMAUI\\tpNoteMaui\\applicationMauiCouvidoux\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{02CF5519-E937-4B1C-885D-2D1E753DACFD}|applicationMauiCouvidoux.csproj|e:\\code\\mobile\\notemaui\\tpnotemaui\\applicationmauicouvidoux\\applicationmauicouvidoux.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{02CF5519-E937-4B1C-885D-2D1E753DACFD}|applicationMauiCouvidoux.csproj|solutionrelative:applicationmauicouvidoux.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{02CF5519-E937-4B1C-885D-2D1E753DACFD}|applicationMauiCouvidoux.csproj|e:\\code\\mobile\\notemaui\\tpnotemaui\\applicationmauicouvidoux\\model\\collectionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02CF5519-E937-4B1C-885D-2D1E753DACFD}|applicationMauiCouvidoux.csproj|solutionrelative:model\\collectionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "applicationMauiCouvidoux.csproj",
+              "DocumentMoniker": "E:\\code\\mobile\\noteMAUI\\tpNoteMaui\\applicationMauiCouvidoux\\applicationMauiCouvidoux.csproj",
+              "RelativeDocumentMoniker": "applicationMauiCouvidoux.csproj",
+              "ToolTip": "E:\\code\\mobile\\noteMAUI\\tpNoteMaui\\applicationMauiCouvidoux\\applicationMauiCouvidoux.csproj",
+              "RelativeToolTip": "applicationMauiCouvidoux.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-15T13:08:34.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CollectionItem.cs",
               "DocumentMoniker": "E:\\code\\mobile\\noteMAUI\\tpNoteMaui\\applicationMauiCouvidoux\\Model\\CollectionItem.cs",
               "RelativeDocumentMoniker": "Model\\CollectionItem.cs",
@@ -26,8 +43,7 @@
               "RelativeToolTip": "Model\\CollectionItem.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T14:22:04.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-14T14:22:04.346Z"
             }
           ]
         }

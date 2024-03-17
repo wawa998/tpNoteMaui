@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="applicationMauiCouvidoux.View.PageApiVisuel">
+        <ListView x:Name="apiView"
+                  
+                  ItemSelected="ApiView_OnItemSelected"
+                  RowHeight="70"
+                  SeparatorColor="Black"> <!-- automatic scroll-->
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                        <ViewCell x:Name="a">
+                            <HorizontalStackLayout x:Name="b">
+                                <Image Source="{Binding Src}"/>
+                                <ScrollView>
+                                <VerticalStackLayout>
+                                <Label Text="{Binding Title}"
+                                       VerticalOptions="Center"/>
+                                <Label WidthRequest="250" x:Name="c" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mi dolor, finibus in ex vel, rhoncus venenatis tellus. Mauris sed viverra libero. Sed hendrerit sollicitudin sem. Proin gravida dolor sagittis magna efficitur, eget faucibus magna tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse potenti. Curabitur imperdiet sem at neque mattis cursus. Donec placerat dictum massa non vulputate. Quisque vitae erat vitae libero consectetur tempor. Ut odio nibh, tincidunt non rutrum in, scelerisque nec justo. Sed nisl leo, efficitur et risus pulvinar, tristique convallis ipsum." IsVisible="{Binding visible}"/>
+                                </VerticalStackLayout>
+                                </ScrollView>
+                            </HorizontalStackLayout>
+                        </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+</ContentPage>

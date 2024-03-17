@@ -14,15 +14,15 @@
                       Icon="../resources/images/firstelement.png" >
         </ShellContent>
         
-        <ShellContent Title="page secondaire" ContentTemplate="{DataTemplate local:MainPage}"
+        <ShellContent Title="Visuel API" ContentTemplate="{DataTemplate view:PageApiVisuel}"
                       Icon="../resources/images/firstelement.png">
         </ShellContent>
         
-        <ShellContent Title="api" ContentTemplate="{DataTemplate local:MainPage}"
+        <ShellContent Title="Ajout List" ContentTemplate="{DataTemplate local:MainPage}"
                       Icon="../resources/images/firstelement.png">
         </ShellContent>
         
-        <ShellContent Title="supplément ketchup" ContentTemplate="{DataTemplate local:MainPage}"
+        <ShellContent Title="supplément" ContentTemplate="{DataTemplate local:MainPage}"
                       Icon="../resources/images/firstelement.png">
         </ShellContent>
     </FlyoutItem>

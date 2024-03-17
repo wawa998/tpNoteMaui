@@ -274,13 +274,13 @@ E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-mac
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\stalker.gif
-E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\firstelement.png
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\stalkerd.jpg
-E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\stalkers.jpg
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\stalkerc.jpg
+E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\firstelement.png
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\imagestalkerdroite.jpg
-E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\stalkercs.jpg
+E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\stalkers.jpg
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\imagestalkergauche.jpg
+E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\stalkercs.jpg
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauiimage.stamp
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\MauiInfo.plist
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauifont.stamp
