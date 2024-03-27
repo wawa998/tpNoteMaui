@@ -56,7 +56,6 @@
 		<MauiAsset Include="Resources\AppIcon\appicon.svg">
 		  <LogicalName>appicon.svg</LogicalName>
 		</MauiAsset>
-		<MauiAsset Include="Resources\Images\stalker.gif" />
 
 		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
@@ -81,23 +80,27 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="ViewModel\App.xaml.cs">
+	  <Compile Update="View\App.xaml.cs">
 	    <DependentUpon>App.xaml</DependentUpon>
 	    <SubType>Code</SubType>
 	  </Compile>
-	  <Compile Update="ViewModel\AppShell.xaml.cs">
+	  <Compile Update="View\AppShell.xaml.cs">
 	    <DependentUpon>AppShell.xaml</DependentUpon>
 	    <SubType>Code</SubType>
 	  </Compile>
-	  <Compile Update="ViewModel\MainPage.xaml.cs">
-	    <DependentUpon>MainPage.xaml</DependentUpon>
-	    <SubType>Code</SubType>
-	  </Compile>
-	  <Compile Update="ViewModel\GifPage.xaml.cs">
+	  <Compile Update="View\GifPage.xaml.cs">
 	    <DependentUpon>GifPage.xaml</DependentUpon>
 	    <SubType>Code</SubType>
 	  </Compile>
-	  <Compile Update="ViewModel\PageApiVisuel.xaml.cs">
+	  <Compile Update="View\MainPage.xaml.cs">
+	    <DependentUpon>MainPage.xaml</DependentUpon>
+	    <SubType>Code</SubType>
+	  </Compile>
+	  <Compile Update="View\PageApiAjout.xaml.cs">
+	    <DependentUpon>PageApiAjout.xaml</DependentUpon>
+	    <SubType>Code</SubType>
+	  </Compile>
+	  <Compile Update="View\PageApiVisuel.xaml.cs">
 	    <DependentUpon>PageApiVisuel.xaml</DependentUpon>
 	    <SubType>Code</SubType>
 	  </Compile>

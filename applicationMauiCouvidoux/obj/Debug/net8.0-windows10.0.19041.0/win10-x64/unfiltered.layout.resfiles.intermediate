@@ -54,6 +54,7 @@ dotnet_bot.scale-400.png
 firstelement.scale-100.png
 imagestalkerdroite.scale-100.jpg
 imagestalkergauche.scale-100.jpg
+schnappi.scale-100.png
 stalker.scale-100.gif
 stalkerc.scale-100.jpg
 stalkercs.scale-100.jpg
@@ -65,5 +66,4 @@ splashSplashScreen.scale-150.png
 splashSplashScreen.scale-200.png
 splashSplashScreen.scale-400.png
 appicon.svg
-Resources\Images\stalker.gif
 AboutAssets.txt

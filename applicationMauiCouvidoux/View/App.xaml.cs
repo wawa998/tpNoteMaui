@@ -8,7 +8,7 @@ namespace applicationMauiCouvidoux
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new AppShell());
+            MainPage = new AppShell();
         }
     }
 }

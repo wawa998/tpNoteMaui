@@ -15,8 +15,8 @@
                 VerticalOptions="CenterAndExpand"
                 BackgroundColor="DarkGrey">
                 <StackLayout>
-                    <Label Text="S.T.A.L.K.E.R" FontSize="30" FontFamily="bold" HorizontalOptions="Center"/>
-                    <Label Text="My favorite FPS game" FontSize="28" HorizontalOptions="Center"/>
+                    <Label Text="S.T.A.L.K.E.R" Style="{StaticResource Headline}" SemanticProperties.HeadingLevel="Level1" HorizontalOptions="Center"/>
+                    <Label Text="My favorite FPS game" Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"  HorizontalOptions="Center"/>
                 </StackLayout>
             </Frame>
             
@@ -59,7 +59,8 @@
                                         <Image Source="{Binding Src}"
                                                Aspect="AspectFill"
                                                WidthRequest="300"
-                                               HorizontalOptions="Center" />
+                                               HorizontalOptions="Center"
+                                               />
                                     </StackLayout>
                                 </Frame>
                             </VerticalStackLayout>

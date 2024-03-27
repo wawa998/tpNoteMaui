@@ -13,6 +13,7 @@ public partial class PageApiVisuel : ContentPage
     public PageApiVisuel()
     {
         InitializeComponent();
+
         items = new List<ApiItems>
         {
             new ApiItems{Title = "Shadow of chernobyl" , Src = "../resources/images/stalkers.jpg", visible = false},
@@ -42,9 +43,5 @@ public partial class PageApiVisuel : ContentPage
         
         items2[e.SelectedItemIndex].visible=true;
         apiView.ItemsSource = items2;
-        items.Clear();
-        items = items2;
     }
-    
-
 }

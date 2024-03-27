@@ -5,25 +5,25 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:applicationMauiCouvidoux"
     xmlns:view="clr-namespace:applicationMauiCouvidoux.View"
-    Shell.FlyoutBehavior="Flyout"
-    Shell.NavBarIsVisible="False"
+    Shell.NavBarIsVisible="true"
     Title="applicationMauiCouvidoux">
     
-    <FlyoutItem Title="bottomBar">
+    <TabBar>
         <ShellContent Title="S.T.A.L.K.E.R" ContentTemplate="{DataTemplate local:MainPage}"
                       Icon="../resources/images/firstelement.png" >
+            
         </ShellContent>
         
         <ShellContent Title="Visuel API" ContentTemplate="{DataTemplate view:PageApiVisuel}"
-                      Icon="../resources/images/firstelement.png">
+                      Icon="../resources/images/schnappi.png">
         </ShellContent>
         
-        <ShellContent Title="Ajout List" ContentTemplate="{DataTemplate local:MainPage}"
+        <ShellContent Title="Ajout List" ContentTemplate="{DataTemplate view:PageApiAjout}"
                       Icon="../resources/images/firstelement.png">
         </ShellContent>
         
         <ShellContent Title="supplément" ContentTemplate="{DataTemplate local:MainPage}"
                       Icon="../resources/images/firstelement.png">
         </ShellContent>
-    </FlyoutItem>
+    </TabBar>
 </Shell>

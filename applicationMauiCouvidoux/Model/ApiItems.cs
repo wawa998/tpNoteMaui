@@ -1,6 +1,6 @@
 namespace applicationMauiCouvidoux.Model
 {
-internal class ApiItems
+public class ApiItems
 {
     public string Title { get; set; }
     public string Src { get; set; }
