@@ -282,7 +282,6 @@ E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-and
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\assets\System.Numerics.dll
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\assets\System.Numerics.Vectors.dll
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\assets\System.ObjectModel.dll
-E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\assets\System.Private.DataContractSerialization.dll
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\assets\System.Private.Uri.dll
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\assets\System.Private.Xml.dll
@@ -1046,3 +1045,4 @@ E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-and
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll

@@ -2,22 +2,23 @@
 
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
                  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-                 x:Class="applicationMauiCouvidoux.MainPage">
+                 x:Class="applicationMauiCouvidoux.MainPage"
+                 BindingContext="{Binding MainPageViewModel}">
     <ScrollView BackgroundColor="DimGray">
-        <StackLayout Margin="0,20,0,0">
+        <FlexLayout AlignItems="Center" Direction="Column" Margin="0,20,0,0">
             
             <Frame HasShadow="True"
                 BorderColor="Black"
                 CornerRadius="5"
                 HeightRequest="120"
-                WidthRequest="260"
+                WidthRequest="300"
                 HorizontalOptions="Center"
                 VerticalOptions="CenterAndExpand"
                 BackgroundColor="DarkGrey">
-                <StackLayout>
-                    <Label Text="S.T.A.L.K.E.R" Style="{StaticResource Headline}" SemanticProperties.HeadingLevel="Level1" HorizontalOptions="Center"/>
-                    <Label Text="My favorite FPS game" Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"  HorizontalOptions="Center"/>
-                </StackLayout>
+                <FlexLayout  AlignContent="Center" Direction="Column">
+                    <Label Text="S.T.A.L.K.E.R" Style="{StaticResource Headline}" SemanticProperties.HeadingLevel="Level1" />
+                    <Label Text="My favorite FPS game" Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"  />
+                </FlexLayout>
             </Frame>
             
             <Frame HasShadow="True"
@@ -37,7 +38,7 @@
             
             <VerticalStackLayout >
                 
-                <CarouselView x:Name="CarouselView" IndicatorView="IndicatorView">
+                <CarouselView ItemsSource="{Binding CarouselItems}" IndicatorView="IndicatorView">
                     <CarouselView.ItemTemplate>
                         <DataTemplate>
                             <VerticalStackLayout>
@@ -88,6 +89,6 @@
                         WidthRequest="120"
                         Clicked="Button_OnClicked"/>
             </Frame>
-        </StackLayout>
+        </FlexLayout>
     </ScrollView>
 </ContentPage>

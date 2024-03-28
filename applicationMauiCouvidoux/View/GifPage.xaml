@@ -5,7 +5,7 @@
              x:Class="applicationMauiCouvidoux.View.GifPage"
              BackgroundColor="DimGray">
 
-        <StackLayout Margin="0,20,0,0">
+        <StackLayout Margin="0,0,0,0">
             <Frame HasShadow="True"
                    BorderColor="Black"
                    CornerRadius="5"

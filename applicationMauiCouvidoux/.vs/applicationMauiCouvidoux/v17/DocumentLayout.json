@@ -11,18 +11,6 @@
       "RelativeMoniker": "D:0:0:{02CF5519-E937-4B1C-885D-2D1E753DACFD}|applicationMauiCouvidoux.csproj|solutionrelative:model\\collectionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02CF5519-E937-4B1C-885D-2D1E753DACFD}|applicationMauiCouvidoux.csproj|e:\\code\\mobile\\notemaui\\tpnotemaui\\applicationmauicouvidoux\\viewmodel\\pageapiajout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02CF5519-E937-4B1C-885D-2D1E753DACFD}|applicationMauiCouvidoux.csproj|solutionrelative:viewmodel\\pageapiajout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02CF5519-E937-4B1C-885D-2D1E753DACFD}|applicationMauiCouvidoux.csproj|e:\\code\\mobile\\notemaui\\tpnotemaui\\applicationmauicouvidoux\\viewmodel\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02CF5519-E937-4B1C-885D-2D1E753DACFD}|applicationMauiCouvidoux.csproj|solutionrelative:viewmodel\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02CF5519-E937-4B1C-885D-2D1E753DACFD}|applicationMauiCouvidoux.csproj|e:\\code\\mobile\\notemaui\\tpnotemaui\\applicationmauicouvidoux\\viewmodel\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02CF5519-E937-4B1C-885D-2D1E753DACFD}|applicationMauiCouvidoux.csproj|solutionrelative:viewmodel\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{02CF5519-E937-4B1C-885D-2D1E753DACFD}|applicationMauiCouvidoux.csproj|e:\\code\\mobile\\notemaui\\tpnotemaui\\applicationmauicouvidoux\\view\\pageapivisuel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{02CF5519-E937-4B1C-885D-2D1E753DACFD}|applicationMauiCouvidoux.csproj|solutionrelative:view\\pageapivisuel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -56,47 +44,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PageApiAjout.xaml.cs",
-              "DocumentMoniker": "E:\\code\\mobile\\noteMAUI\\tpNoteMaui\\applicationMauiCouvidoux\\ViewModel\\PageApiAjout.xaml.cs",
-              "RelativeDocumentMoniker": "ViewModel\\PageApiAjout.xaml.cs",
-              "ToolTip": "E:\\code\\mobile\\noteMAUI\\tpNoteMaui\\applicationMauiCouvidoux\\ViewModel\\PageApiAjout.xaml.cs",
-              "RelativeToolTip": "ViewModel\\PageApiAjout.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T11:11:35.395Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "E:\\code\\mobile\\noteMAUI\\tpNoteMaui\\applicationMauiCouvidoux\\ViewModel\\AppShell.xaml.cs",
-              "RelativeDocumentMoniker": "ViewModel\\AppShell.xaml.cs",
-              "ToolTip": "E:\\code\\mobile\\noteMAUI\\tpNoteMaui\\applicationMauiCouvidoux\\ViewModel\\AppShell.xaml.cs",
-              "RelativeToolTip": "ViewModel\\AppShell.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T11:11:34.14Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "E:\\code\\mobile\\noteMAUI\\tpNoteMaui\\applicationMauiCouvidoux\\ViewModel\\App.xaml.cs",
-              "RelativeDocumentMoniker": "ViewModel\\App.xaml.cs",
-              "ToolTip": "E:\\code\\mobile\\noteMAUI\\tpNoteMaui\\applicationMauiCouvidoux\\ViewModel\\App.xaml.cs",
-              "RelativeToolTip": "ViewModel\\App.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T11:11:33.18Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "PageApiVisuel.xaml",
               "DocumentMoniker": "E:\\code\\mobile\\noteMAUI\\tpNoteMaui\\applicationMauiCouvidoux\\View\\PageApiVisuel.xaml",
               "RelativeDocumentMoniker": "View\\PageApiVisuel.xaml",
@@ -108,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "App.xaml",
               "DocumentMoniker": "E:\\code\\mobile\\noteMAUI\\tpNoteMaui\\applicationMauiCouvidoux\\View\\App.xaml",
               "RelativeDocumentMoniker": "View\\App.xaml",
@@ -120,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "E:\\code\\mobile\\noteMAUI\\tpNoteMaui\\applicationMauiCouvidoux\\View\\AppShell.xaml",
               "RelativeDocumentMoniker": "View\\AppShell.xaml",
@@ -150,14 +102,14 @@
               "RelativeDocumentMoniker": "applicationMauiCouvidoux.csproj",
               "ToolTip": "E:\\code\\mobile\\noteMAUI\\tpNoteMaui\\applicationMauiCouvidoux\\applicationMauiCouvidoux.csproj",
               "RelativeToolTip": "applicationMauiCouvidoux.csproj",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACsAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAG0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-03-15T13:08:34.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
               "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
@@ -167,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "Microsoft.Maui.Resizetizer.After.targets",
               "DocumentMoniker": "C:\\Users\\couvi\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.7\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
               "ToolTip": "C:\\Users\\couvi\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.7\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
@@ -177,19 +129,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "service.cs",
-              "DocumentMoniker": "E:\\code\\mobile\\noteMAUI\\tpNoteMaui\\applicationMauiCouvidoux\\Model\\service.cs",
-              "RelativeDocumentMoniker": "Model\\service.cs",
-              "ToolTip": "E:\\code\\mobile\\noteMAUI\\tpNoteMaui\\applicationMauiCouvidoux\\Model\\service.cs",
-              "RelativeToolTip": "Model\\service.cs",
+              "DocumentIndex": 7,
+              "Title": "Service.cs",
+              "DocumentMoniker": "E:\\code\\mobile\\noteMAUI\\tpNoteMaui\\applicationMauiCouvidoux\\Model\\Service.cs",
+              "RelativeDocumentMoniker": "Model\\Service.cs",
+              "ToolTip": "E:\\code\\mobile\\noteMAUI\\tpNoteMaui\\applicationMauiCouvidoux\\Model\\Service.cs",
+              "RelativeToolTip": "Model\\Service.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-19T12:41:41.854Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "ApiItems.cs",
               "DocumentMoniker": "E:\\code\\mobile\\noteMAUI\\tpNoteMaui\\applicationMauiCouvidoux\\Model\\ApiItems.cs",
               "RelativeDocumentMoniker": "Model\\ApiItems.cs",
