@@ -96,12 +96,8 @@
 	    <DependentUpon>MainPage.xaml</DependentUpon>
 	    <SubType>Code</SubType>
 	  </Compile>
-	  <Compile Update="View\PageApiAjout.xaml.cs">
-	    <DependentUpon>PageApiAjout.xaml</DependentUpon>
-	    <SubType>Code</SubType>
-	  </Compile>
 	  <Compile Update="View\PageApiVisuel.xaml.cs">
-	    <DependentUpon>PageApiVisuel.xaml</DependentUpon>
+	    <DependentUpon>PageApiAjout.xaml</DependentUpon>
 	    <SubType>Code</SubType>
 	  </Compile>
 	</ItemGroup>
