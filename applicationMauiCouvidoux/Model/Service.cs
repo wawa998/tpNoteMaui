@@ -1,3 +1,4 @@
+using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Text.Json;
 using Microsoft.VisualBasic;
@@ -11,7 +12,7 @@ public class Service
     HttpClient _client;
     JsonSerializerOptions _serializerOptions;
 
-    public List<Monster> Items { get; private set; }
+    public ObservableCollection<Monster> Items { get; private set; }
 
     public Service()
     {
@@ -23,9 +24,9 @@ public class Service
         };
     }
     
-    public async Task<List<Monster>> RefreshDataAsync()
+    public async Task<ObservableCollection<Monster>> RefreshDataAsync()
     {
-        var Items = new List<Monster>();
+        var Items = new ObservableCollection<Monster>();
 
         Uri uri = new Uri("https://api.sampleapis.com/monstersanctuary/monsters");
         try
@@ -34,7 +35,7 @@ public class Service
             if (response.IsSuccessStatusCode)
             {
                 string content = await response.Content.ReadAsStringAsync();
-                Items = JsonSerializer.Deserialize<List<Monster>>(content, _serializerOptions);
+                Items = JsonSerializer.Deserialize<ObservableCollection<Monster>>(content, _serializerOptions);
             }
         }
         catch (Exception ex)
