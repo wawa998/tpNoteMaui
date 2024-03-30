@@ -7,33 +7,116 @@ namespace applicationMauiCouvidoux.ViewModel;
 
 public class PageApiAjoutVIewModel : INotifyPropertyChanged
 {
+    private String _name;
+    
+    public String Name
+    {
+        get { return _name;}
+        set
+        {
+            _name = value;
+            OnPropertyChanged(nameof(Name));
+        }
+    }
+    private int  _strenght;
+    
+    public int Strenght
+    {
+        get { return _strenght;}
+        set
+        {
+            _strenght = value;
+            OnPropertyChanged(nameof(Strenght));
+        }
+    }
+    
+    private int  _magic;
+    
+    public int Magic
+    {
+        get { return _magic;}
+        set
+        {
+            _magic = value;
+            OnPropertyChanged(nameof(Magic));
+        }
+    }
+    
+    private int  _health;
+    
+    public int Health
+    {
+        get { return _health;}
+        set
+        {
+            _health = value;
+            OnPropertyChanged(nameof(Health));
+        }
+    }
 
+    private int _defense;
+    
+    public int Defense
+    {
+        get { return _defense;}
+        set
+        {
+            _defense = value;
+            OnPropertyChanged(nameof(Defense));
+        }
+    }
+    
+    private int _potion;
+    
+    public int Potion
+    {
+        get { return _potion;}
+        set
+        {
+            _potion = value;
+
+            OnPropertyChanged(nameof(Potion));
+        }
+    }
+    
     public ICommand AjoutItemApi { get; }
     
     public PageApiAjoutVIewModel()
     {
         AjoutItemApi = new Command(AjoutItem);
+        Strenght = -1;
+        Health = -1;
+        Defense = -1;
+        Magic = -1;
+        Potion = -1;
+        Name = "";
+
     }
 
     private void AjoutItem()
     {
-        appData.addList(new Monster
+        if (Name.Length != 0 && Strenght != -1 && Magic != -1 && Health != -1 && Defense != -1 && Potion != -1)
         {
-            Name = "monster test",
-            Image = "../resources/images/stalkers.jpg",
-            Stats = new Stats
+            appData.addList(new Monster
             {
-                Strength = 5,
-                Defence = 5,
-                Health = 5,
-                Magic = 5,
-                Potion = 5
-            },
-            Elements = null,
-            Resistance = null,
-            Weakness = null,
-            Id = 0,
-        });
+                Name = Name,
+                Image = "../resources/images/stalkers.jpg",
+                Stats = new Stats
+                {
+                    Strength = Strenght,
+                    Defence = Defense,
+                    Health = Health,
+                    Magic = Magic,
+                    Potion = Potion
+                },
+                Elements = null,
+                Resistance = null,
+                Weakness = null,
+                Id = 0,
+            });
+        }
+        
+        
     }
     public event PropertyChangedEventHandler PropertyChanged;
 

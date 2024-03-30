@@ -10,7 +10,8 @@ public class appData
 
     public static void addList(Monster monster)
     {
-        list.Add(monster);
+        list.Insert(0,monster);
+        
         //PageApiVisuelViewModel.instance.listofMonster = list;
     }
     
