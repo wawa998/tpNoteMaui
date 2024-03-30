@@ -17,7 +17,7 @@ public class PageApiAjoutVIewModel : INotifyPropertyChanged
 
     private void AjoutItem()
     {
-        appData.list.Add(new Monster
+        appData.addList(new Monster
         {
             Name = "monster test",
             Image = "../resources/images/stalkers.jpg",

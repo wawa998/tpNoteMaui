@@ -9,6 +9,7 @@ public class Monster
     public List<Weakness> Weakness { get; set; }
     public List<Resistance> Resistance { get; set; }
     public Stats Stats { get; set; }
+    public Boolean visible { get; set; } = true;
 }
 
 public class Element

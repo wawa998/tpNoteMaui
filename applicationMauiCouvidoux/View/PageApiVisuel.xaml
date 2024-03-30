@@ -7,14 +7,14 @@
     <ListView ItemsSource="{Binding Monsters}"
               RowHeight="190"
               SeparatorColor="Black"> <!-- automatic scroll-->
-        <ListView.ItemTemplate>
+        <ListView.ItemTemplate >
             <DataTemplate>
-                <ViewCell>
-                            <HorizontalStackLayout Spacing="10" BackgroundColor="DarkGray"> 
+                <ViewCell >
+                            <HorizontalStackLayout Spacing="10"> 
                                 <Image HeightRequest="190" WidthRequest="190" Source="{Binding Image}"/>
                                 <VerticalStackLayout Spacing="10">
                                     <Label Text="{Binding Name}"/>
-                                    <VerticalStackLayout>
+                                    <VerticalStackLayout IsVisible="{Binding visible}">
                                         <HorizontalStackLayout>
                                             <Label Text="Force : " />
                                             <Label Text="{ Binding Stats.Strength}"/>

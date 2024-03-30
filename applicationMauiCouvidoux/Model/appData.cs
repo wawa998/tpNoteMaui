@@ -13,4 +13,5 @@ public class appData
         list.Add(monster);
         //PageApiVisuelViewModel.instance.listofMonster = list;
     }
+    
 }

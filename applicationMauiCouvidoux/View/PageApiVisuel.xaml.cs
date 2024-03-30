@@ -13,11 +13,13 @@ namespace applicationMauiCouvidoux.View;
 
 public partial class PageApiVisuel : ContentPage
 {
-    
+    public PageApiVisuelViewModel pageApiVisuelViewModel;
     public PageApiVisuel()
     {
         InitializeComponent();
-        var pageApiVisuelViewModel = new PageApiVisuelViewModel();
+        
+        pageApiVisuelViewModel = new PageApiVisuelViewModel();
+        
         BindingContext = pageApiVisuelViewModel;
         
     }
