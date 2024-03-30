@@ -18,7 +18,7 @@
                       Icon="../resources/images/schnappi.png">
         </ShellContent>
         
-        <ShellContent Title="Ajout List" ContentTemplate="{DataTemplate local:MainPage}"
+        <ShellContent Title="Ajout List" ContentTemplate="{DataTemplate view:PageApiAjout}"
                       Icon="../resources/images/firstelement.png">
         </ShellContent>
         

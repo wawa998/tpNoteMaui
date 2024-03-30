@@ -10,8 +10,7 @@
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
-                    <HorizontalStackLayout >
-                            <HorizontalStackLayout Spacing="10"> 
+                            <HorizontalStackLayout Spacing="10" BackgroundColor="DarkGray"> 
                                 <Image HeightRequest="190" WidthRequest="190" Source="{Binding Image}"/>
                                 <VerticalStackLayout Spacing="10">
                                     <Label Text="{Binding Name}"/>
@@ -39,7 +38,6 @@
                                     </VerticalStackLayout>
                                     </VerticalStackLayout>
                             </HorizontalStackLayout>
-                    </HorizontalStackLayout>
                 </ViewCell>
             </DataTemplate>
         </ListView.ItemTemplate>

@@ -1,5 +1,4 @@
 using System.ComponentModel;
-using System.Windows.Input;
 using applicationMauiCouvidoux.Model;
 
 namespace applicationMauiCouvidoux.ViewModel;
