@@ -5,9 +5,34 @@
              x:Class="applicationMauiCouvidoux.View.PageApiAjout"
              BindingContext="{Binding PageApiAjoutVIewModel}">
     <ContentPage.Content>
-        
-        
-        <Button Text="pour tester" Command="{Binding AjoutItemApi}" />
+        <FlexLayout AlignItems="Center" Direction="Column">
+            <VerticalStackLayout Margin="0,0,0,10">
+                <Label  Text="Enter Name : "/>
+                <Entry/>    
+            </VerticalStackLayout>
+            <VerticalStackLayout Margin="0,0,0,10">
+                <Label Text="Enter Strengh : "/>
+                <Entry  Keyboard="Numeric"/>
+            </VerticalStackLayout>
+            <VerticalStackLayout Margin="0,0,0,10">
+                <Label Text="Enter Magic : "/>
+                <Entry  Keyboard="Numeric"/>
+            </VerticalStackLayout>
+            <VerticalStackLayout Margin="0,0,0,10">
+                <Label Text="Enter Health : "/>
+                <Entry Keyboard="Numeric"/>
+            </VerticalStackLayout>
+            <VerticalStackLayout Margin="0,0,0,10">
+                <Label Text="Enter Defense : "/>
+                <Entry  Keyboard="Numeric"/>
+            </VerticalStackLayout>
+            <VerticalStackLayout Margin="0,0,0,10">
+                <Label Text="Enter Potion : "/>
+                <Entry  Keyboard="Numeric"/>
+            </VerticalStackLayout>
+            
+        <Button WidthRequest="100" HeightRequest="50" Text="pour tester" Command="{Binding AjoutItemApi}" />
+        </FlexLayout>
     </ContentPage.Content>
     
 </ContentPage>
