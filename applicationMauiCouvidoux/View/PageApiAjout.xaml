@@ -5,6 +5,7 @@
              x:Class="applicationMauiCouvidoux.View.PageApiAjout"
              BindingContext="{Binding PageApiAjoutVIewModel}">
     <ContentPage.Content>
+        <ScrollView>
         <FlexLayout AlignItems="Center" Direction="Column">
             <VerticalStackLayout Margin="0,0,0,10">
                 <Label HorizontalTextAlignment="Center" Text="Enter Name : "/>
@@ -32,8 +33,11 @@
             </VerticalStackLayout>
             
             <Button Margin="0,0,0,10" WidthRequest="80" HeightRequest="40" Text="image" Command="{Binding ImagePicker}" />
-            <Button WidthRequest="100" HeightRequest="40" Text="validate" Command="{Binding AjoutItemApi}" />
+            <Image WidthRequest="200" HeightRequest="200" Source="{Binding Source}" Margin="0,0,0,10" />
+            
+            <Button Margin="0,0,0,10" WidthRequest="100" HeightRequest="40" Text="validate" Command="{Binding AjoutItemApi}" />
         </FlexLayout>
+        </ScrollView>
     </ContentPage.Content>
     
 </ContentPage>
