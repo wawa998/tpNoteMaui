@@ -308,3 +308,4 @@ E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-mac
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\applicat.971559B4.Up2Date
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\applicationMauiCouvidoux.genruntimeconfig.cache
 E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ref\applicationMauiCouvidoux.dll
+E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\plus.png

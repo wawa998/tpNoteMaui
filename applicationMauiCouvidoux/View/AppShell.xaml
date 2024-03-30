@@ -14,12 +14,12 @@
             
         </ShellContent>
         
-        <ShellContent Title="Visuel API" ContentTemplate="{DataTemplate view:PageApiVisuel}"
+        <ShellContent Title="Monster list" ContentTemplate="{DataTemplate view:PageApiVisuel}"
                       Icon="../resources/images/schnappi.png">
         </ShellContent>
         
-        <ShellContent Title="Ajout List" ContentTemplate="{DataTemplate view:PageApiAjout}"
-                      Icon="../resources/images/firstelement.png">
+        <ShellContent Title="Add to list" ContentTemplate="{DataTemplate view:PageApiAjout}"
+                      Icon="../resources/images/plus.png">
         </ShellContent>
         
         <ShellContent Title="supplément" ContentTemplate="{DataTemplate local:MainPage}"

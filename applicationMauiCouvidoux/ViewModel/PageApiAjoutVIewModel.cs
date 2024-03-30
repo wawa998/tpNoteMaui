@@ -79,28 +79,58 @@ public class PageApiAjoutVIewModel : INotifyPropertyChanged
         }
     }
     
+    private String _source;
+    
+    public String Source
+    {
+        get { return _source;}
+        set
+        {
+            _source = value;
+
+            OnPropertyChanged(nameof(Source));
+        }
+    }
+    
     public ICommand AjoutItemApi { get; }
+    
+    public ICommand ImagePicker { get; }
     
     public PageApiAjoutVIewModel()
     {
         AjoutItemApi = new Command(AjoutItem);
+        ImagePicker = new Command(TakePhoto);
         Strenght = -1;
         Health = -1;
         Defense = -1;
         Magic = -1;
         Potion = -1;
         Name = "";
+        Source = "";
 
     }
 
+    public async void TakePhoto()
+    {
+            FileResult photo = await MediaPicker.Default.PickPhotoAsync();
+
+            if (photo != null)
+            {
+                // save the file into local storage
+                Source = photo.FullPath;
+
+            }
+        
+    }
+    
     private void AjoutItem()
     {
-        if (Name.Length != 0 && Strenght != -1 && Magic != -1 && Health != -1 && Defense != -1 && Potion != -1)
+        if (Name.Length != 0 && Source.Length != 0 && Strenght != -1 && Magic != -1 && Health != -1 && Defense != -1 && Potion != -1)
         {
             appData.addList(new Monster
             {
                 Name = Name,
-                Image = "../resources/images/stalkers.jpg",
+                Image = Source,
                 Stats = new Stats
                 {
                     Strength = Strenght,

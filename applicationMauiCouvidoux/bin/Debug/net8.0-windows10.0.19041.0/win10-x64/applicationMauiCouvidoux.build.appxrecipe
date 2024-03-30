@@ -226,6 +226,9 @@
     <AppxPackagedFile Include="E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\imagestalkergauche.scale-100.jpg">
       <PackagePath>imagestalkergauche.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\plus.scale-100.png">
+      <PackagePath>plus.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\code\mobile\noteMAUI\tpNoteMaui\applicationMauiCouvidoux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\schnappi.scale-100.png">
       <PackagePath>schnappi.scale-100.png</PackagePath>
     </AppxPackagedFile>

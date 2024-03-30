@@ -16,19 +16,19 @@
                                     <Label Text="{Binding Name}"/>
                                     <VerticalStackLayout IsVisible="{Binding visible}">
                                         <HorizontalStackLayout>
-                                            <Label Text="Force : " />
+                                            <Label Text="Strength : " />
                                             <Label Text="{ Binding Stats.Strength}"/>
                                         </HorizontalStackLayout>
                                         <HorizontalStackLayout>
-                                            <Label Text="Magie : " />
+                                            <Label Text="Magic : " />
                                             <Label Text="{ Binding Stats.Magic}"/>
                                         </HorizontalStackLayout>
                                         <HorizontalStackLayout>
-                                            <Label Text="Santé : " />
+                                            <Label Text="Health : " />
                                             <Label Text="{ Binding Stats.Health}"/>
                                         </HorizontalStackLayout>
                                         <HorizontalStackLayout>
-                                            <Label Text="Defense : " />
+                                            <Label Text="Defence : " />
                                             <Label Text="{ Binding Stats.Defence}"/>
                                         </HorizontalStackLayout>
                                         <HorizontalStackLayout>

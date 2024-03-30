@@ -31,7 +31,8 @@
                 <Entry TextChanged="InputView_OnTextChanged_potion" Keyboard="Numeric"/>
             </VerticalStackLayout>
             
-        <Button WidthRequest="100" HeightRequest="50" Text="pour tester" Command="{Binding AjoutItemApi}" />
+            <Button Margin="0,0,0,10" WidthRequest="80" HeightRequest="40" Text="image" Command="{Binding ImagePicker}" />
+            <Button WidthRequest="100" HeightRequest="40" Text="validate" Command="{Binding AjoutItemApi}" />
         </FlexLayout>
     </ContentPage.Content>
     
