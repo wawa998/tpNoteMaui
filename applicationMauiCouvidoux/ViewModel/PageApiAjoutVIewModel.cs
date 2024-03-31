@@ -2,6 +2,8 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Windows.Input;
 using applicationMauiCouvidoux.Model;
+using CommunityToolkit.Maui.Alerts;
+using CommunityToolkit.Maui.Core;
 
 namespace applicationMauiCouvidoux.ViewModel;
 
@@ -125,7 +127,7 @@ public class PageApiAjoutVIewModel : INotifyPropertyChanged
     
     private void AjoutItem()
     {
-        if (Name.Length != 0 && Source.Length != 0 && Strenght != -1 && Magic != -1 && Health != -1 && Defense != -1 && Potion != -1)
+        if (Name.Length != 0 && Source.Length != 0 && Strenght > 0 && Magic > 0 && Health > 0 && Defense > 0 && Potion > 0)
         {
             appData.addList(new Monster
             {
@@ -144,10 +146,27 @@ public class PageApiAjoutVIewModel : INotifyPropertyChanged
                 Weakness = null,
                 Id = 0,
             });
+            showToast("Monster added");
         }
-        
-        
+        else
+        {
+            showToast("Missing values or wrong values entered");
+        }
+
     }
+
+    private async void showToast(String text)
+    {
+        CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
+        
+        ToastDuration duration = ToastDuration.Short;
+        double fontSize = 14;
+
+        var toast = Toast.Make(text, duration, fontSize);
+
+        await toast.Show(cancellationTokenSource.Token);
+    }
+    
     public event PropertyChangedEventHandler PropertyChanged;
 
     protected virtual void OnPropertyChanged(string propertyName)

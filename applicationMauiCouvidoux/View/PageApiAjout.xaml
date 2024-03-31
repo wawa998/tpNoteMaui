@@ -2,34 +2,44 @@
 
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:model="clr-namespace:applicationMauiCouvidoux.Model"
              x:Class="applicationMauiCouvidoux.View.PageApiAjout"
              BindingContext="{Binding PageApiAjoutVIewModel}">
     <ContentPage.Content>
         <ScrollView>
         <FlexLayout AlignItems="Center" Direction="Column">
+        
             <VerticalStackLayout Margin="0,0,0,10">
                 <Label HorizontalTextAlignment="Center" Text="Enter Name : "/>
                 <Entry TextChanged="InputView_OnTextChanged" />    
             </VerticalStackLayout>
+            
             <VerticalStackLayout Margin="0,0,0,10">
                 <Label HorizontalTextAlignment="Center" Text="Enter Strengh : "/>
-                <Entry TextChanged="InputView_OnTextChanged_strenght"  Keyboard="Numeric"/>
+                <Entry TextChanged="InputView_OnTextChanged_strenght"  Keyboard="Numeric" Placeholder="positive value only"/>
             </VerticalStackLayout>
+            
             <VerticalStackLayout Margin="0,0,0,10">
                 <Label HorizontalTextAlignment="Center" Text="Enter Magic : "/>
-                <Entry TextChanged="InputView_OnTextChanged_Magic" Keyboard="Numeric"/>
+                <Entry TextChanged="InputView_OnTextChanged_Magic" Keyboard="Numeric" Placeholder="positive value only"/>
             </VerticalStackLayout>
+            
             <VerticalStackLayout Margin="0,0,0,10">
                 <Label HorizontalTextAlignment="Center" Text="Enter Health : "/>
-                <Entry TextChanged="InputView_OnTextChanged_health" Keyboard="Numeric"/>
+                <Entry TextChanged="InputView_OnTextChanged_health" Keyboard="Numeric" Placeholder="positive value only"/>
             </VerticalStackLayout>
+            
             <VerticalStackLayout Margin="0,0,0,10">
                 <Label HorizontalTextAlignment="Center" Text="Enter Defense : "/>
-                <Entry TextChanged="InputView_OnTextChanged_defense" Keyboard="Numeric"/>
+                <Entry TextChanged="InputView_OnTextChanged_defense" Keyboard="Numeric" Placeholder="positive value only"/>
             </VerticalStackLayout>
+            
             <VerticalStackLayout Margin="0,0,0,10">
                 <Label HorizontalTextAlignment="Center" Text="Enter Potion : "/>
-                <Entry TextChanged="InputView_OnTextChanged_potion" Keyboard="Numeric"/>
+                <Entry TextChanged="InputView_OnTextChanged_potion" Keyboard="Numeric" Placeholder="positive value only"/>
+                
+                
             </VerticalStackLayout>
             
             <Button Margin="0,0,0,10" WidthRequest="80" HeightRequest="40" Text="image" Command="{Binding ImagePicker}" />

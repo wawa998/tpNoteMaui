@@ -25,7 +25,7 @@ public partial class PageApiAjout : ContentPage
 
     private void InputView_OnTextChanged_strenght(object? sender, TextChangedEventArgs e)
     {
-        if (e.NewTextValue == "")
+        if (e.NewTextValue == "" || !char.IsDigit(e.NewTextValue[0]))
         {
             pageApiAjoutVIewModel.Strenght = -1;
         }
@@ -37,7 +37,7 @@ public partial class PageApiAjout : ContentPage
 
     private void InputView_OnTextChanged_Magic(object? sender, TextChangedEventArgs e)
     {
-        if (e.NewTextValue == "")
+        if (e.NewTextValue == "" || !char.IsDigit(e.NewTextValue[0]))
         {
             pageApiAjoutVIewModel.Magic = -1;
         }
@@ -50,8 +50,8 @@ public partial class PageApiAjout : ContentPage
 
     private void InputView_OnTextChanged_health(object? sender, TextChangedEventArgs e)
     {
-
-        if (e.NewTextValue == "")
+       
+        if (e.NewTextValue == "" || !char.IsDigit(e.NewTextValue[0]))
         {
             pageApiAjoutVIewModel.Health = -1;
         }
@@ -64,7 +64,7 @@ public partial class PageApiAjout : ContentPage
 
     private void InputView_OnTextChanged_defense(object? sender, TextChangedEventArgs e)
     {
-        if (e.NewTextValue == "")
+        if (e.NewTextValue == "" || !char.IsDigit(e.NewTextValue[0]))
         {
             pageApiAjoutVIewModel.Defense = -1;
         }
@@ -76,7 +76,7 @@ public partial class PageApiAjout : ContentPage
 
     private void InputView_OnTextChanged_potion(object? sender, TextChangedEventArgs e)
     {
-        if (e.NewTextValue == "")
+        if (e.NewTextValue == "" || !char.IsDigit(e.NewTextValue[0]))
         {
             pageApiAjoutVIewModel.Potion = -1;
         }
@@ -84,5 +84,6 @@ public partial class PageApiAjout : ContentPage
         {
             pageApiAjoutVIewModel.Potion = int.Parse(e.NewTextValue);
         }
+        
     }
 }
