@@ -2,8 +2,106 @@
 
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="applicationMauiCouvidoux.View.PageComplement">
+             BackgroundColor="DimGray"
+             x:Class="applicationMauiCouvidoux.View.PageComplement"
+             BindingContext="{Binding PageComplementViewModel}">
     <ContentPage.Content>
-        <Label Text="HERE"/>
+        <ScrollView>
+            <FlexLayout AlignItems="Center" Direction="Column">
+                
+                <Border Stroke="#000000"
+                        StrokeThickness="1"
+                        StrokeShape="RoundRectangle 10,10,10,10"
+                        BackgroundColor="DarkGrey"
+                        Padding="16,16"
+                        Margin="0,5"
+                        HorizontalOptions="Center">
+                    <VerticalStackLayout  HorizontalOptions="Center">
+                        <Label Text="S.T.A.L.K.E.R 2" Style="{StaticResource Headline}" SemanticProperties.HeadingLevel="Level1" />
+                        <Label Text="Heart of tchernobyl" Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"  />
+                    </VerticalStackLayout>
+                </Border>
+                <Border Stroke="#000000"
+                        StrokeThickness="1"
+                        StrokeShape="RoundRectangle 10,10,10,10"
+                        BackgroundColor="DarkGrey"
+                        Padding="16,16"
+                        Margin="5,5"
+                        HorizontalOptions="Center">
+                        <Image Source="stalkerdeuxfullimage.jpg"/>    
+                </Border>
+                
+                <Border Stroke="#000000"
+                        StrokeThickness="1"
+                        StrokeShape="RoundRectangle 10,10,10,10"
+                        BackgroundColor="DarkGrey"
+                        Padding="16,16"
+                        Margin="0,5"
+                        HorizontalOptions="Center">
+                    <Label FontSize="Large"
+                           HorizontalOptions="Center"
+                           Text="{Binding Message}"
+                         />
+                    
+                </Border>
+            
+                <Border Stroke="#000000"
+                        StrokeThickness="1"
+                        StrokeShape="RoundRectangle 10,10,10,10"
+                        BackgroundColor="DarkGrey"
+                        Padding="16,16"
+                        Margin="0,5"
+                        HorizontalOptions="Center">
+                    <VerticalStackLayout>
+                        <Label Text="You may pre-order the game here : " FontSize="Large" />
+                        <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Instant-gaming"
+                                          FontSize="Large"
+                                          TextColor="Blue"
+                                          TextDecorations="Underline">
+                                        <Span.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding TapToLink}"
+                                                                  CommandParameter="https://www.instant-gaming.com/fr/rechercher/?q=stalker2" />
+                                        </Span.GestureRecognizers>
+                                    </Span>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Steam"
+                                          FontSize="Large"
+                                          TextColor="Blue"
+                                          TextDecorations="Underline">
+                                        <Span.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding TapToLink}"
+                                                                  CommandParameter="https://store.steampowered.com/app/1643320/STALKER_2_Heart_of_Chornobyl/?l=french" />
+                                        </Span.GestureRecognizers>
+                                    </Span>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Epic game"
+                                          FontSize="Large"
+                                          TextColor="Blue"
+                                          TextDecorations="Underline">
+                                        <Span.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding TapToLink}"
+                                                                  CommandParameter="https://store.epicgames.com/fr/p/stalker-2-heart-of-chornobyl" />
+                                        </Span.GestureRecognizers>
+                                    </Span>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                    </VerticalStackLayout>
+                    </Border>
+            </FlexLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

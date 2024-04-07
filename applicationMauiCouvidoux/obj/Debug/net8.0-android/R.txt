@@ -3088,11 +3088,12 @@ int drawable stalker 0x7f0700e8
 int drawable stalkerc 0x7f0700e9
 int drawable stalkercs 0x7f0700ea
 int drawable stalkerd 0x7f0700eb
-int drawable stalkerdicon 0x7f0700ec
-int drawable stalkers 0x7f0700ed
-int drawable test_level_drawable 0x7f0700ee
-int drawable tooltip_frame_dark 0x7f0700ef
-int drawable tooltip_frame_light 0x7f0700f0
+int drawable stalkerdeuxfullimage 0x7f0700ec
+int drawable stalkerdicon 0x7f0700ed
+int drawable stalkers 0x7f0700ee
+int drawable test_level_drawable 0x7f0700ef
+int drawable tooltip_frame_dark 0x7f0700f0
+int drawable tooltip_frame_light 0x7f0700f1
 int id ALT 0x7f080000
 int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002

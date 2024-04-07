@@ -5,36 +5,36 @@
              x:Class="applicationMauiCouvidoux.View.GifPage"
              BackgroundColor="DimGray">
 
-        <StackLayout Spacing="20">
-            <Frame HasShadow="True"
-                   BorderColor="Black"
-                   CornerRadius="5"
-                   HeightRequest="360"
-                   WidthRequest="360"
+    <StackLayout Spacing="20">
+        <Frame HasShadow="True"
+               BorderColor="Black"
+               CornerRadius="5"
+               HeightRequest="360"
+               WidthRequest="360"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               BackgroundColor="DarkGrey">
+            <Image Source="stalker.gif" IsAnimationPlaying="false"
+                   WidthRequest="300"
                    HorizontalOptions="Center"
-                   VerticalOptions="CenterAndExpand"
-                   BackgroundColor="DarkGrey">
-                <Image Source="stalker.gif" IsAnimationPlaying="false"
-                       WidthRequest="300"
-                       HorizontalOptions="Center"
-                       x:Name="imgLoader"/>
-            </Frame>
+                   x:Name="imgLoader"/>
+        </Frame>
 
-            <Border Stroke="#000000"
-                    StrokeThickness="1"
-                    StrokeShape="RoundRectangle 10,10,10,10"
-                    BackgroundColor="DarkGrey"
-                    Padding="16,16"
-                    Margin="0,5"
-                    HorizontalOptions="Center">
-                <Button Text="Go back !" TextColor="Black" BackgroundColor="White" 
-                        BorderColor="Black"
-                        BorderWidth="1"
-                        FontSize="20"
-                        HeightRequest="50"
-                        WidthRequest="110"
-                        Clicked="Button_OnClicked"/>
-            </Border>
-        </StackLayout>
+        <Border Stroke="#000000"
+                StrokeThickness="1"
+                StrokeShape="RoundRectangle 10,10,10,10"
+                BackgroundColor="DarkGrey"
+                Padding="16,16"
+                Margin="0,5"
+                HorizontalOptions="Center">
+            <Button Text="Go back !" TextColor="Black" BackgroundColor="White" 
+                    BorderColor="Black"
+                    BorderWidth="1"
+                    FontSize="20"
+                    HeightRequest="50"
+                    WidthRequest="110"
+                    Clicked="Button_OnClicked"/>
+        </Border>
+    </StackLayout>
 
 </ContentPage>

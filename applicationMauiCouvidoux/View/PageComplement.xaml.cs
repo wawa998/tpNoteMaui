@@ -3,13 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
+using applicationMauiCouvidoux.ViewModel;
 
 namespace applicationMauiCouvidoux.View;
 
 public partial class PageComplement : ContentPage
 {
+    
     public PageComplement()
     {
         InitializeComponent();
+        var pageComplementViewModel = new PageComplementViewModel();
+        BindingContext = pageComplementViewModel;
+        
     }
+    
+    
 }
