@@ -5,7 +5,7 @@
              x:Class="applicationMauiCouvidoux.View.GifPage"
              BackgroundColor="DimGray">
 
-        <StackLayout Margin="0,0,0,0">
+        <StackLayout Spacing="20">
             <Frame HasShadow="True"
                    BorderColor="Black"
                    CornerRadius="5"
@@ -20,13 +20,21 @@
                        x:Name="imgLoader"/>
             </Frame>
 
-            <Button Text="go back !" TextColor="Black" BackgroundColor="White" 
-                    BorderColor="Black"
-                    BorderWidth="1"
-                    FontSize="20"
-                    HeightRequest="50"
-                    WidthRequest="110"
-                    Clicked="Button_OnClicked"/>
+            <Border Stroke="#000000"
+                    StrokeThickness="1"
+                    StrokeShape="RoundRectangle 10,10,10,10"
+                    BackgroundColor="DarkGrey"
+                    Padding="16,16"
+                    Margin="0,5"
+                    HorizontalOptions="Center">
+                <Button Text="go back !" TextColor="Black" BackgroundColor="White" 
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        FontSize="20"
+                        HeightRequest="50"
+                        WidthRequest="110"
+                        Clicked="Button_OnClicked"/>
+            </Border>
         </StackLayout>
 
 </ContentPage>

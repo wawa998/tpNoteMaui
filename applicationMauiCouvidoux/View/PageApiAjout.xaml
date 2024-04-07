@@ -5,47 +5,116 @@
              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              xmlns:model="clr-namespace:applicationMauiCouvidoux.Model"
              x:Class="applicationMauiCouvidoux.View.PageApiAjout"
+             BackgroundColor="DimGray"
              BindingContext="{Binding PageApiAjoutVIewModel}">
     <ContentPage.Content>
         <ScrollView>
         <FlexLayout AlignItems="Center" Direction="Column">
-        
+            <Border Stroke="#000000"
+                    StrokeThickness="1"
+                    StrokeShape="RoundRectangle 10,10,10,10"
+                    BackgroundColor="DarkGrey"
+                    Padding="16,16"
+                    Margin="0,5"
+                    HorizontalOptions="Center">
             <VerticalStackLayout Margin="0,0,0,10">
                 <Label HorizontalTextAlignment="Center" Text="Enter Name : "/>
                 <Entry TextChanged="InputView_OnTextChanged" />    
             </VerticalStackLayout>
+            </Border>
             
+            <Border Stroke="#000000"
+                    StrokeThickness="1"
+                    StrokeShape="RoundRectangle 10,10,10,10"
+                    BackgroundColor="DarkGrey"
+                    Padding="16,16"
+                    Margin="0,5"
+                    HorizontalOptions="Center">
             <VerticalStackLayout Margin="0,0,0,10">
                 <Label HorizontalTextAlignment="Center" Text="Enter Strengh : "/>
-                <Entry TextChanged="InputView_OnTextChanged_strenght"  Keyboard="Numeric" Placeholder="positive value only"/>
+                <Entry TextChanged="InputView_OnTextChanged_strenght" PlaceholderColor="#FEFEFF"  Keyboard="Numeric" Placeholder="positive value only"/>
             </VerticalStackLayout>
+            </Border>
+                
             
+            <Border Stroke="#000000"
+                    StrokeThickness="1"
+                    StrokeShape="RoundRectangle 10,10,10,10"
+                    BackgroundColor="DarkGrey"
+                    Padding="16,16"
+                    Margin="0,5"
+                    HorizontalOptions="Center">
             <VerticalStackLayout Margin="0,0,0,10">
                 <Label HorizontalTextAlignment="Center" Text="Enter Magic : "/>
-                <Entry TextChanged="InputView_OnTextChanged_Magic" Keyboard="Numeric" Placeholder="positive value only"/>
+                <Entry TextChanged="InputView_OnTextChanged_Magic" PlaceholderColor="#FEFEFF" Keyboard="Numeric" Placeholder="positive value only"/>
             </VerticalStackLayout>
-            
+            </Border>
+                
+            <Border Stroke="#000000"
+                    StrokeThickness="1"
+                    StrokeShape="RoundRectangle 10,10,10,10"
+                    BackgroundColor="DarkGrey"
+                    Padding="16,16"
+                    Margin="0,5"
+                    HorizontalOptions="Center">
             <VerticalStackLayout Margin="0,0,0,10">
                 <Label HorizontalTextAlignment="Center" Text="Enter Health : "/>
-                <Entry TextChanged="InputView_OnTextChanged_health" Keyboard="Numeric" Placeholder="positive value only"/>
+                <Entry TextChanged="InputView_OnTextChanged_health" PlaceholderColor="#FEFEFF" Keyboard="Numeric" Placeholder="positive value only"/>
             </VerticalStackLayout>
-            
+            </Border>
+                
+            <Border Stroke="#000000"
+                    StrokeThickness="1"
+                    StrokeShape="RoundRectangle 10,10,10,10"
+                    BackgroundColor="DarkGrey"
+                    Padding="16,16"
+                    Margin="0,5"
+                    HorizontalOptions="Center">
             <VerticalStackLayout Margin="0,0,0,10">
                 <Label HorizontalTextAlignment="Center" Text="Enter Defense : "/>
-                <Entry TextChanged="InputView_OnTextChanged_defense" Keyboard="Numeric" Placeholder="positive value only"/>
+                <Entry TextChanged="InputView_OnTextChanged_defense" PlaceholderColor="#FEFEFF" Keyboard="Numeric" Placeholder="positive value only"/>
             </VerticalStackLayout>
-            
+            </Border>
+                
+            <Border Stroke="#000000"
+                    StrokeThickness="1"
+                    StrokeShape="RoundRectangle 10,10,10,10"
+                    BackgroundColor="DarkGrey"
+                    Padding="16,16"
+                    Margin="0,5"
+                    HorizontalOptions="Center">
             <VerticalStackLayout Margin="0,0,0,10">
                 <Label HorizontalTextAlignment="Center" Text="Enter Potion : "/>
-                <Entry TextChanged="InputView_OnTextChanged_potion" Keyboard="Numeric" Placeholder="positive value only"/>
+                <Entry TextChanged="InputView_OnTextChanged_potion" PlaceholderColor="#FEFEFF" Keyboard="Numeric" Placeholder="positive value only"/>
             </VerticalStackLayout>
-            
+            </Border>
+                
+            <Border Stroke="#000000"
+                    StrokeThickness="1"
+                    StrokeShape="RoundRectangle 10,10,10,10"
+                    BackgroundColor="DarkGrey"
+                    Padding="16,16"
+                    Margin="0,5"
+                    HorizontalOptions="Center">
             <HorizontalStackLayout Spacing="20">
-                <Button Margin="0,0,0,10" WidthRequest="80" HeightRequest="40" Text="image" Command="{Binding ImagePicker}" />
-                <Button Margin="0,0,0,10" WidthRequest="100" HeightRequest="40" Text="validate" Command="{Binding AjoutItemApi}" />
+                <Button Margin="0,0,0,10" WidthRequest="80" HeightRequest="40" Text="image" Command="{Binding ImagePicker}" BackgroundColor="Azure" TextColor="Black"
+                        BorderColor="Black"
+                        BorderWidth="1"/>
+                <Button Margin="0,0,0,10" WidthRequest="100" HeightRequest="40" Text="validate" Command="{Binding AjoutItemApi}" BackgroundColor="Azure" TextColor="Black"
+                        BorderColor="Black"
+                        BorderWidth="1"/>
             </HorizontalStackLayout>
+                </Border>
+                
+            <Border Stroke="#000000"
+                    StrokeThickness="1"
+                    StrokeShape="RoundRectangle 10,10,10,10"
+                    BackgroundColor="DarkGrey"
+                    Padding="16,16"
+                    Margin="0,5"
+                    HorizontalOptions="Center">
             <Image WidthRequest="200" HeightRequest="200" Source="{Binding Source}" Margin="0,0,0,10" />
-            
+            </Border>
         </FlexLayout>
         </ScrollView>
     </ContentPage.Content>

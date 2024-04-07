@@ -11,7 +11,7 @@
         <ListView.ItemTemplate >
             <DataTemplate>
                 <ViewCell >
-                    <HorizontalStackLayout Spacing="10"> 
+                    <HorizontalStackLayout Spacing="10" BackgroundColor="DarkGrey"> 
                         <Image HeightRequest="190" WidthRequest="190" Source="{Binding Image}"/>
                         <Label VerticalTextAlignment="Center" Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level1" Text="{Binding Name}"/>
                     </HorizontalStackLayout>
