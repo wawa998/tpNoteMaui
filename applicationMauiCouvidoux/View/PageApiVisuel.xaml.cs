@@ -27,7 +27,7 @@ public partial class PageApiVisuel : ContentPage
 
     private void ListView_OnItemTapped(object? sender, ItemTappedEventArgs e)
     {
-        Navigation.PushAsync(new  descriptionPage(e.ItemIndex));
+        Navigation.PushAsync(new  DescriptionPage(e.ItemIndex));
     }
 }
 

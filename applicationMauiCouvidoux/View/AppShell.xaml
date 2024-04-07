@@ -22,8 +22,8 @@
                       Icon="plus.png">
         </ShellContent>
         
-        <ShellContent Title="supplément" ContentTemplate="{DataTemplate local:MainPage}"
-                      Icon="firstelement.png">
+        <ShellContent Title="Additional" ContentTemplate="{DataTemplate view:PageComplement}"
+                      Icon="stalkerdicon.png">
         </ShellContent>
     </TabBar>
 </Shell>

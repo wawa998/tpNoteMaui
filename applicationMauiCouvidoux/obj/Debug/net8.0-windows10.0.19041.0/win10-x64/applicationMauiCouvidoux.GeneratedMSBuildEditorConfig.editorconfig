@@ -36,11 +36,11 @@ build_metadata.AdditionalFiles.ManifestResourceName = applicationMauiCouvidoux.V
 build_metadata.AdditionalFiles.TargetPath = View\AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = View\AppShell.xaml
 
-[E:/code/mobile/noteMAUI/tpNoteMaui/applicationMauiCouvidoux/View/descriptionPage.xaml]
+[E:/code/mobile/noteMAUI/tpNoteMaui/applicationMauiCouvidoux/View/DescriptionPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = applicationMauiCouvidoux.View.descriptionPage.xaml
-build_metadata.AdditionalFiles.TargetPath = View\descriptionPage.xaml
-build_metadata.AdditionalFiles.RelativePath = View\descriptionPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = applicationMauiCouvidoux.View.DescriptionPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\DescriptionPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\DescriptionPage.xaml
 
 [E:/code/mobile/noteMAUI/tpNoteMaui/applicationMauiCouvidoux/View/GifPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -65,3 +65,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = applicationMauiCouvidoux.View.PageApiVisuel.xaml
 build_metadata.AdditionalFiles.TargetPath = View\PageApiVisuel.xaml
 build_metadata.AdditionalFiles.RelativePath = View\PageApiVisuel.xaml
+
+[E:/code/mobile/noteMAUI/tpNoteMaui/applicationMauiCouvidoux/View/PageComplement.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = applicationMauiCouvidoux.View.PageComplement.xaml
+build_metadata.AdditionalFiles.TargetPath = View\PageComplement.xaml
+build_metadata.AdditionalFiles.RelativePath = View\PageComplement.xaml

@@ -97,10 +97,10 @@
                     Margin="0,5"
                     HorizontalOptions="Center">
             <HorizontalStackLayout Spacing="20">
-                <Button Margin="0,0,0,10" WidthRequest="80" HeightRequest="40" Text="image" Command="{Binding ImagePicker}" BackgroundColor="Azure" TextColor="Black"
+                <Button Margin="0,0,0,10" WidthRequest="80" HeightRequest="40" Text="Image" Command="{Binding ImagePicker}" BackgroundColor="Azure" TextColor="Black"
                         BorderColor="Black"
                         BorderWidth="1"/>
-                <Button Margin="0,0,0,10" WidthRequest="100" HeightRequest="40" Text="validate" Command="{Binding AjoutItemApi}" BackgroundColor="Azure" TextColor="Black"
+                <Button Margin="0,0,0,10" WidthRequest="100" HeightRequest="40" Text="Validate" Command="{Binding AjoutItemApi}" BackgroundColor="Azure" TextColor="Black"
                         BorderColor="Black"
                         BorderWidth="1"/>
             </HorizontalStackLayout>

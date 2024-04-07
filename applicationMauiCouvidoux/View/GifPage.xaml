@@ -27,7 +27,7 @@
                     Padding="16,16"
                     Margin="0,5"
                     HorizontalOptions="Center">
-                <Button Text="go back !" TextColor="Black" BackgroundColor="White" 
+                <Button Text="Go back !" TextColor="Black" BackgroundColor="White" 
                         BorderColor="Black"
                         BorderWidth="1"
                         FontSize="20"
