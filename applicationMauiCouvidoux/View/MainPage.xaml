@@ -32,8 +32,8 @@
                 VerticalOptions="CenterAndExpand"
                 BackgroundColor="DarkGrey">
             <HorizontalStackLayout Spacing="10">
-                <Image Source="../resources/images/imagestalkergauche.jpg"  WidthRequest="180" ></Image>
-                <Image Source="../resources/images/imagestalkerdroite.jpg"  WidthRequest="180" ></Image>
+                <Image Source="imagestalkergauche.jpg"  WidthRequest="180" ></Image>
+                <Image Source="imagestalkerdroite.jpg"  WidthRequest="180" ></Image>
             </HorizontalStackLayout>
             </Frame>
             

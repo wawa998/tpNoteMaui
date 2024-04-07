@@ -6,27 +6,17 @@
              BindingContext="{Binding PageApiVisuelViewModel}">
     <ListView ItemsSource="{Binding Monsters}"
               RowHeight="190"
-              ItemSelected="ListView_OnItemSelected"
+              ItemTapped="ListView_OnItemTapped"
               SeparatorColor="Black"> <!-- automatic scroll-->
         <ListView.ItemTemplate >
             <DataTemplate>
                 <ViewCell >
-                            <HorizontalStackLayout Spacing="10"> 
-                                <Image HeightRequest="190" WidthRequest="190" Source="{Binding Image}"/>
-                                <Label Text="{Binding Name}"/>
-                            </HorizontalStackLayout>
+                    <HorizontalStackLayout Spacing="10"> 
+                        <Image HeightRequest="190" WidthRequest="190" Source="{Binding Image}"/>
+                        <Label VerticalTextAlignment="Center" Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level1" Text="{Binding Name}"/>
+                    </HorizontalStackLayout>
                 </ViewCell>
             </DataTemplate>
         </ListView.ItemTemplate>
     </ListView>
 </ContentPage>
-<!--
-public class Stats
-{
-    public int Strength { get; set; }
-    public int Magic { get; set; }
-    public int Health { get; set; }
-    public int Defence { get; set; }
-    public int Potion { get; set; }
-}
--->

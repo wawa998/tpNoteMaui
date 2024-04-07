@@ -5,8 +5,12 @@
              x:Class="applicationMauiCouvidoux.View.descriptionPage"
              BindingContext="{Binding descriptionPageViewModel}">
     <ContentPage.Content>
-        <VerticalStackLayout>
-            <VerticalStackLayout>
+        <VerticalStackLayout HorizontalOptions="Center" Spacing="20">
+            <Label Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level1" HorizontalTextAlignment="Center" Text="{Binding Monster.Name}" />
+            
+            <Image WidthRequest="250" HeightRequest="250" Source="{Binding Monster.Image}"/>
+            
+            <VerticalStackLayout  HorizontalOptions="Center">
                 <HorizontalStackLayout>
                     <Label Text="Strength : " />
                     <Label Text="{ Binding Monster.Stats.Strength}"/>
@@ -29,7 +33,7 @@
                 </HorizontalStackLayout>
             </VerticalStackLayout>
             
-            <Button Text="Return" Clicked="Button_OnClicked" />
+            <Button Text="Return" Clicked="Button_OnClicked" WidthRequest="75" />
         </VerticalStackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -21,10 +21,10 @@ public class MainPageViewModel : INotifyPropertyChanged
     public MainPageViewModel()
     {
         CarouselItems = new List<carouselItem>(){
-            new carouselItem{Title = "Shadow of chernobyl" , Src = "../resources/images/stalkers.jpg"},
-            new carouselItem{Title = "Clear Sky" , Src = "../resources/images/stalkercs.jpg"},
-            new carouselItem{Title = "Call of pripyat" , Src = "../resources/images/stalkerc.jpg"},
-            new carouselItem{Title = "Heart of chernobyl" , Src = "../resources/images/stalkerd.jpg"}
+            new carouselItem{Title = "Shadow of chernobyl" , Src = "stalkers.jpg"},
+            new carouselItem{Title = "Clear Sky" , Src = "stalkercs.jpg"},
+            new carouselItem{Title = "Call of pripyat" , Src = "stalkerc.jpg"},
+            new carouselItem{Title = "Heart of chernobyl" , Src = "stalkerd.jpg"}
         };
     }
     

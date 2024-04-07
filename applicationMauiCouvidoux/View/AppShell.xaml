@@ -10,20 +10,20 @@
     
     <TabBar>
         <ShellContent Title="S.T.A.L.K.E.R" ContentTemplate="{DataTemplate local:MainPage}"
-                      Icon="../resources/images/firstelement.png" >
+                      Icon="firstelement.png" >
             
         </ShellContent>
         
         <ShellContent Title="Monster list" ContentTemplate="{DataTemplate view:PageApiVisuel}"
-                      Icon="../resources/images/schnappi.png">
+                      Icon="schnappi.png">
         </ShellContent>
         
         <ShellContent Title="Add to list" ContentTemplate="{DataTemplate view:PageApiAjout}"
-                      Icon="../resources/images/plus.png">
+                      Icon="plus.png">
         </ShellContent>
         
         <ShellContent Title="supplément" ContentTemplate="{DataTemplate local:MainPage}"
-                      Icon="../resources/images/firstelement.png">
+                      Icon="firstelement.png">
         </ShellContent>
     </TabBar>
 </Shell>
