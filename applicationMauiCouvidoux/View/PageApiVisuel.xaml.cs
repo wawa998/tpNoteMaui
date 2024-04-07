@@ -23,7 +23,11 @@ public partial class PageApiVisuel : ContentPage
         BindingContext = pageApiVisuelViewModel;
         
     }
-    
+
+    private void ListView_OnItemSelected(object? sender, SelectedItemChangedEventArgs e)
+    {
+        Navigation.PushAsync(new  descriptionPage(e.SelectedItemIndex));
+    }
 }
 
 

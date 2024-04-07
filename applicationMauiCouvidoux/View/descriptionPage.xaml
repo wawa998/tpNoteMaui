@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="applicationMauiCouvidoux.View.descriptionPage"
+             BindingContext="{Binding descriptionPageViewModel}">
+    <ContentPage.Content>
+        <VerticalStackLayout>
+            <VerticalStackLayout>
+                <HorizontalStackLayout>
+                    <Label Text="Strength : " />
+                    <Label Text="{ Binding Monster.Stats.Strength}"/>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout>
+                    <Label Text="Magic : " />
+                    <Label Text="{ Binding Monster.Stats.Magic}"/>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout>
+                    <Label Text="Health : " />
+                    <Label Text="{ Binding Monster.Stats.Health}"/>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout>
+                    <Label Text="Defence : " />
+                    <Label Text="{ Binding Monster.Stats.Defence}"/>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout>
+                    <Label Text="Potion : " />
+                    <Label Text="{ Binding Monster.Stats.Potion}"/>
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+            
+            <Button Text="Return" Clicked="Button_OnClicked" />
+        </VerticalStackLayout>
+    </ContentPage.Content>
+</ContentPage>

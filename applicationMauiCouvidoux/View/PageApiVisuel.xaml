@@ -6,37 +6,14 @@
              BindingContext="{Binding PageApiVisuelViewModel}">
     <ListView ItemsSource="{Binding Monsters}"
               RowHeight="190"
+              ItemSelected="ListView_OnItemSelected"
               SeparatorColor="Black"> <!-- automatic scroll-->
         <ListView.ItemTemplate >
             <DataTemplate>
                 <ViewCell >
                             <HorizontalStackLayout Spacing="10"> 
                                 <Image HeightRequest="190" WidthRequest="190" Source="{Binding Image}"/>
-                                <VerticalStackLayout Spacing="10">
-                                    <Label Text="{Binding Name}"/>
-                                    <VerticalStackLayout IsVisible="{Binding visible}">
-                                        <HorizontalStackLayout>
-                                            <Label Text="Strength : " />
-                                            <Label Text="{ Binding Stats.Strength}"/>
-                                        </HorizontalStackLayout>
-                                        <HorizontalStackLayout>
-                                            <Label Text="Magic : " />
-                                            <Label Text="{ Binding Stats.Magic}"/>
-                                        </HorizontalStackLayout>
-                                        <HorizontalStackLayout>
-                                            <Label Text="Health : " />
-                                            <Label Text="{ Binding Stats.Health}"/>
-                                        </HorizontalStackLayout>
-                                        <HorizontalStackLayout>
-                                            <Label Text="Defence : " />
-                                            <Label Text="{ Binding Stats.Defence}"/>
-                                        </HorizontalStackLayout>
-                                        <HorizontalStackLayout>
-                                            <Label Text="Potion : " />
-                                            <Label Text="{ Binding Stats.Potion}"/>
-                                        </HorizontalStackLayout>
-                                    </VerticalStackLayout>
-                                    </VerticalStackLayout>
+                                <Label Text="{Binding Name}"/>
                             </HorizontalStackLayout>
                 </ViewCell>
             </DataTemplate>
