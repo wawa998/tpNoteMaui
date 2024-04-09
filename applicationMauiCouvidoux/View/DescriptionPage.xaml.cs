@@ -20,4 +20,9 @@ public partial class DescriptionPage : ContentPage
     {
         Navigation.PopAsync();
     }
+
+    private void Button_OnClickedDelete(object? sender, EventArgs e)
+    {
+        Navigation.PopAsync();
+    }
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("applicationMauiCouvidoux")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+b6e5b8c790ccfa1dd9e851cdaa47d5f271f587f8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+05314b80b58b1fca2adddca132a5f4837b7f839b")]
 [assembly: System.Reflection.AssemblyProductAttribute("applicationMauiCouvidoux")]
 [assembly: System.Reflection.AssemblyTitleAttribute("applicationMauiCouvidoux")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

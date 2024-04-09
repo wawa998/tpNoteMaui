@@ -57,6 +57,20 @@
                         HeightRequest="50"
                         WidthRequest="100" Text="Return" Clicked="Button_OnClicked"/>
             </Border>
+            <Border Stroke="#000000"
+                    StrokeThickness="1"
+                    StrokeShape="RoundRectangle 10,10,10,10"
+                    BackgroundColor="DarkGrey"
+                    Padding="16,16"
+                    Margin="0,30,0,0"
+                    HorizontalOptions="Center">
+                <Button TextColor="Black" BackgroundColor="White" 
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        FontSize="18"
+                        HeightRequest="50"
+                        WidthRequest="100" Text="Delete" Clicked="Button_OnClickedDelete" Command="{Binding deleteItem}"/>
+            </Border>
         </VerticalStackLayout>
     </ContentPage.Content>
 </ContentPage>
