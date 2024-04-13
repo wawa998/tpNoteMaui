@@ -6,19 +6,19 @@
              BackgroundColor="DimGray">
 
     <StackLayout Spacing="20">
-        <Frame HasShadow="True"
-               BorderColor="Black"
-               CornerRadius="5"
-               HeightRequest="360"
-               WidthRequest="360"
-               HorizontalOptions="Center"
-               VerticalOptions="CenterAndExpand"
-               BackgroundColor="DarkGrey">
+        <Border Stroke="#000000"
+                StrokeThickness="1"
+                StrokeShape="RoundRectangle 5,5,5,5"
+                HeightRequest="360"
+                WidthRequest="360"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                BackgroundColor="DarkGrey">
             <Image Source="stalker.gif" IsAnimationPlaying="false"
                    WidthRequest="300"
                    HorizontalOptions="Center"
                    x:Name="imgLoader"/>
-        </Frame>
+        </Border>
 
         <Border Stroke="#000000"
                 StrokeThickness="1"
@@ -30,7 +30,7 @@
             <Button Text="Go back !" TextColor="Black" BackgroundColor="White" 
                     BorderColor="Black"
                     BorderWidth="1"
-                    FontSize="20"
+                    FontSize="15"
                     HeightRequest="50"
                     WidthRequest="110"
                     Clicked="Button_OnClicked"/>

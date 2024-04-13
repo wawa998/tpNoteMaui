@@ -6,6 +6,7 @@
              BackgroundColor="DimGray"
              BindingContext="{Binding DescriptionPageViewModel}">
     <ContentPage.Content >
+        <ScrollView HorizontalOptions="Center">
         <VerticalStackLayout HorizontalOptions="Center" Spacing="20" >
             <Border Stroke="#000000"
                     StrokeThickness="1"
@@ -72,5 +73,6 @@
                         WidthRequest="100" Text="Delete" Clicked="Button_OnClickedDelete" Command="{Binding deleteItem}"/>
             </Border>
         </VerticalStackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

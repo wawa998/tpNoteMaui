@@ -85,7 +85,7 @@
                 <Button Text="To the gif!" TextColor="Black" BackgroundColor="White" 
                         BorderColor="Black"
                         BorderWidth="1"
-                        FontSize="20"
+                        FontSize="15"
                         HeightRequest="50"
                         WidthRequest="120"
                         Clicked="Button_OnClicked"/>
